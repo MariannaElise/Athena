@@ -12,7 +12,10 @@ class TopicOne: UIViewController {
     @IBAction func homeButton(_ sender: UIButton) {
     }
     @IBAction func badgeButton(_ sender: UIButton) {
+        starFill.alpha = 1
     }
+    @IBOutlet weak var starFill: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

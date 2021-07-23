@@ -27,9 +27,6 @@
 		4FA2C92826A7C2F600A577A5 /* AthenaBeginningPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C92726A7C2F600A577A5 /* AthenaBeginningPage.swift */; };
 		4FA2C92A26A9F2FC00A577A5 /* badgespage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA2C92926A9F2FC00A577A5 /* badgespage.swift */; };
 		4FC05A9D26AB36F3003B98D4 /* coolvetica rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FC05A9C26AB36F3003B98D4 /* coolvetica rg.ttf */; };
-		4FC05A9F26AB393D003B98D4 /* AthenaDemoFinal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC05A9E26AB393D003B98D4 /* AthenaDemoFinal.storyboard */; };
-		4FC05AA026AB393D003B98D4 /* AthenaDemoFinal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC05A9E26AB393D003B98D4 /* AthenaDemoFinal.storyboard */; };
-		4FC05AA126AB393D003B98D4 /* AthenaDemoFinal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC05A9E26AB393D003B98D4 /* AthenaDemoFinal.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +73,6 @@
 		4FA2C92726A7C2F600A577A5 /* AthenaBeginningPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenaBeginningPage.swift; sourceTree = "<group>"; };
 		4FA2C92926A9F2FC00A577A5 /* badgespage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = badgespage.swift; sourceTree = "<group>"; };
 		4FC05A9C26AB36F3003B98D4 /* coolvetica rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "coolvetica rg.ttf"; path = "../../Downloads/coolvetica rg.ttf"; sourceTree = "<group>"; };
-		4FC05A9E26AB393D003B98D4 /* AthenaDemoFinal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = AthenaDemoFinal.storyboard; path = "../../Desktop/Kode With Klossy/AthenaDemoFinal.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +103,6 @@
 		4FA2C8D426A76B4900A577A5 = {
 			isa = PBXGroup;
 			children = (
-				4FC05A9E26AB393D003B98D4 /* AthenaDemoFinal.storyboard */,
 				4FC05A9C26AB36F3003B98D4 /* coolvetica rg.ttf */,
 				4FA2C8DF26A76B4900A577A5 /* AthenaFinalProject */,
 				4FA2C8F926A76B5200A577A5 /* AthenaFinalProjectTests */,
@@ -273,7 +268,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FA2C8F026A76B5100A577A5 /* LaunchScreen.storyboard in Resources */,
-				4FC05A9F26AB393D003B98D4 /* AthenaDemoFinal.storyboard in Resources */,
 				4FA2C8ED26A76B5100A577A5 /* Assets.xcassets in Resources */,
 				4FA2C8E826A76B4900A577A5 /* Main.storyboard in Resources */,
 				4FC05A9D26AB36F3003B98D4 /* coolvetica rg.ttf in Resources */,
@@ -284,7 +278,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FC05AA026AB393D003B98D4 /* AthenaDemoFinal.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +285,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FC05AA126AB393D003B98D4 /* AthenaDemoFinal.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,12 @@ import UIKit
 
 class TopicFour: UIViewController {
 
+    @IBAction func badgeButton(_ sender: UIButton) {
+        starFill.alpha = 1
+    }
+    
+    @IBOutlet weak var starFill: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
