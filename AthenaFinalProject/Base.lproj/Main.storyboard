@@ -29,7 +29,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="discover. collect." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TPv-vw-1sv">
-                                <rect key="frame" x="222" y="830" width="162" height="25"/>
+                                <rect key="frame" x="232" y="830" width="162" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="CoolveticaRg-Regular" family="Coolvetica" pointSize="21"/>
                                 <nil key="textColor"/>
@@ -43,7 +43,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="uncover. learn." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fk9-oE-ZfA">
-                                <rect key="frame" x="241" y="797" width="143" height="32"/>
+                                <rect key="frame" x="251" y="797" width="143" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="CoolveticaRg-Regular" family="Coolvetica" pointSize="21"/>
                                 <nil key="textColor"/>
@@ -131,7 +131,7 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hwe-ec-X0U">
                                 <rect key="frame" x="232" y="290" width="153" height="155"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Uyghur Genocide" backgroundImage="image3">
+                                <state key="normal" title="Puerto Rico Food Sovereignty" backgroundImage="image6">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -177,7 +177,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="TYh-3L-wxf">
                                 <rect key="frame" x="232" y="111" width="153" height="163"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <state key="normal" title="Puerto Rico Food Sovereignty" backgroundImage="image6">
+                                <state key="normal" title="Uyghur Genocide" backgroundImage="image3">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -191,7 +191,7 @@
                                 <rect key="frame" x="115" y="31" width="185" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="CoolveticaRg-Regular" family="Coolvetica" pointSize="31"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
@@ -315,6 +315,9 @@
                                 <state key="normal" backgroundImage="arrow.left.circle" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="psC-Xw-f71" kind="show" id="nyh-Y2-Lpc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otd-Gs-efj">
                                 <rect key="frame" x="340" y="37" width="52" height="48"/>
@@ -336,6 +339,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5DC64CF6-7137-4C50-9FDF-DE541F8CF783" translatesAutoresizingMaskIntoConstraints="NO" id="F2A-pg-5o9">
+                                <rect key="frame" x="28" y="248" width="377" height="648"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BF44AAFB-1588-4908-B1FF-DEF9B713171C_4_5005_c" translatesAutoresizingMaskIntoConstraints="NO" id="GIK-5e-idF">
+                                <rect key="frame" x="71" y="207" width="291" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Puerto Rico's Lack of Food Sovereingty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9iS-W8-ExU">
+                                <rect key="frame" x="58" y="146" width="316" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Y5u-Md-S3H"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -598,11 +616,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="yWQ-SK-DMU"/>
         <segue reference="fXv-BF-uuo"/>
-        <segue reference="ygT-zh-6ca"/>
+        <segue reference="nyh-Y2-Lpc"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="5DC64CF6-7137-4C50-9FDF-DE541F8CF783" width="482" height="518"/>
+        <image name="BF44AAFB-1588-4908-B1FF-DEF9B713171C_4_5005_c" width="258" height="193"/>
         <image name="CBC6F745-4213-4685-B119-B1F9C80E3B31_4_5005_c" width="222" height="288"/>
         <image name="arrow.left.circle" catalog="system" width="128" height="121"/>
         <image name="circle" catalog="system" width="128" height="121"/>
